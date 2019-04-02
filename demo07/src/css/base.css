@@ -1,0 +1,11 @@
+html {
+    background: red;
+    transition: transform 1s;
+}
+:root {
+    --mainColor: yellow;
+}
+
+a {
+    color: var(--mainColor);
+}

@@ -1,0 +1,20 @@
+{
+  "name": "demo11",
+  "version": "1.0.0",
+  "description": "处理第三方库 几种方案 1.使用webpack.providePlugin插件 2.使用imports-loader 3.野蛮的全局windows对象",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "imports-loader": "^0.8.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5"
+  }
+}

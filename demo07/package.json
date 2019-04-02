@@ -1,0 +1,20 @@
+{
+  "name": "demo07",
+  "version": "1.0.0",
+  "description": "postcss PostCSS是一款使用插件去转换CSS的工具  https://www.jianshu.com/p/14b110cb1a38 https://github.com/postcss/postcss/blob/master/README-cn.md Autoprefixer自动获取浏览器的流行度和能够支持的属性，并根据这些数据帮你自动为css规则添加前缀。 postcss-cssnano 帮助优化／压缩css  css-loader使用的就是这种压缩 postcss-cssnext 可以让我们现在使用未来的css语法。常见的新语法有     1.css variables  css变量     2.custom selectors 自定义的css选择器     3.calc() 动态计算 ［此项目已停止］ 已包含 autoprefixer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "css-loader": "^2.1.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.14",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1"
+  }
+}

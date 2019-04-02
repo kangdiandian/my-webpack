@@ -1,0 +1,19 @@
+{
+  "name": "demo09",
+  "version": "1.0.0",
+  "description": "图片文件处理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "img-loader": "^3.0.1",
+    "postcss-sprites": "^4.2.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2"
+  }
+}

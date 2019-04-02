@@ -1,0 +1,22 @@
+{
+  "name": "demo08",
+  "version": "1.0.0",
+  "description": "tree shaking 直译 摇树 用处：项目中一些非业务型注释性代码或者引用库中的多余代码，如果编译上线时不去除，则用户在使用应用过程中会加载一些无用代码，造成资源浪费。因此在编译上线时，要去除这些代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode production",
+    "build": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "glob-all": "^3.1.0",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.5"
+  }
+}

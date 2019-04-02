@@ -1,0 +1,21 @@
+html {
+  background: red;
+}
+.img-box {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.img-div {
+  width: 30px;
+  height: 30px;
+}
+.img1{
+  background: url(../assets/imgs/1.jpg) no-repeat no-repeat;
+}
+.img2{
+  background: url(../assets/imgs/2.jpg) no-repeat no-repeat;
+}
+.img3{
+  background: url(../assets/imgs/3.jpg) no-repeat no-repeat;
+}
